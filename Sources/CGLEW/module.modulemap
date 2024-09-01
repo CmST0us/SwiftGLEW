@@ -1,0 +1,5 @@
+module CGLEW [system][extern_c] {
+    umbrella header "shims.h"
+    link "GLEW"
+    export *
+}
